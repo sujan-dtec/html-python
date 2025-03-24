@@ -1,0 +1,55 @@
+   <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+
+/* Set the background for the entire webpage */
+body {
+    background-color: #f0f0f0;  /* Light gray background */
+    background-image: url('background.jpg'); /* Optional background image */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the table */
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 50px auto;
+    background-color: white;  /* Table background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    color: red;
+}
+
+/* Style table headers */
+th {
+    background-color: #3498db; /* Blue */
+    color: white;
+    padding: 15px;
+}
+
+/* Style table cells */
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Alternate row colors */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+    </style>
